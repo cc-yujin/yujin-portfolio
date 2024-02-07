@@ -2,26 +2,78 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
+html,
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.body,
+a {
+  cursor: none;
+}
+.mouse__text {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.mouse__text p {
+  font-size: 2.8vw;
+  line-height: 1.6;
+}
+.mouse__text p:last-child {
+  font-size: 3.5vw;
+}
+.mouse__text p span {
+  color: rgb(221, 218, 53);
+}
+.mouse__cursor {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  z-index: 9999;
+  border-radius: 50%;
+  background-color: rgba(19, 226, 43, 0.298);
+  user-select: none;
+  pointer-events: none;
+  transition: transform 0.3s;
+}
+.mouse__cursor2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  z-index: 9999;
+  border-radius: 50%;
+  background-color: rgba(198, 238, 18, 0.28);
+  user-select: none;
+  pointer-events: none;
+  transition: transform 0.3s;
+}
+.mouse__cursor.active {
+  transform: scale(0);
+}
+.mouse__cursor2.active {
+  transform: scale(5) rotateX(545deg);
+  background-color: rgba(255, 166, 0, 0.6);
+}
+.mouse__cursor.active2 {
+  transform: scale(0);
+}
+.mouse__cursor2.active2 {
+  transform: scale(5) rotateY(360deg);
+  background-color: rgba(217, 255, 0, 0.6);
+}
+.mouse__cursor.active3 {
+  transform: scale(0);
+}
+.mouse__cursor2.active3 {
+  transform: scale(5);
+  background-color: rgba(175, 26, 175, 0.6);
 }
