@@ -17,7 +17,7 @@ export default function Skill() {
             </div>
             <p className="w-full leading-relaxed text-slate-800 mt-4">
               다양한 프론트엔드 기술을 익히고 있습니다. <br />
-              부족한 점이 많지만 깊이 있게 작동 원리를 이해하고자 노력합니다.
+              아직 부족하지만 깊이 있게 작동 원리를 이해하고자 노력합니다.
             </p>
           </div>
         </div>
@@ -170,6 +170,20 @@ export default function Skill() {
                     height={53}
                     alt="slack icon"
                   />
+                  <Image
+                    className="mr-2 rounded-lg"
+                    src="/notion-2.svg"
+                    width={37}
+                    height={53}
+                    alt="notion icon"
+                  />
+                  <Image
+                    className="mr-2 rounded-lg"
+                    src="/discord-6.svg"
+                    width={37}
+                    height={53}
+                    alt="discord icon"
+                  />
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                   Tool
@@ -182,17 +196,20 @@ export default function Skill() {
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="w-100 h-18 inline-flex items-center justify-center mb-2">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-                  </svg>
+                  <Image
+                    className="mr-2 rounded-lg"
+                    src="/netlify.svg"
+                    width={37}
+                    height={53}
+                    alt="netlify icon"
+                  />
+                  <Image
+                    className="mr-2 rounded-lg"
+                    src="/vercel.svg"
+                    width={37}
+                    height={53}
+                    alt="vercel icon"
+                  />
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                   Deploy
@@ -203,17 +220,41 @@ export default function Skill() {
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="w-100 h-18 inline-flex items-center justify-center mb-2">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                  </svg>
+                  <Image
+                    className="mr-2 rounded-lg"
+                    src="/figma-svgrepo-com.svg"
+                    width={37}
+                    height={53}
+                    alt="figma icon"
+                  />
+                  <Image
+                    className="mr-2 rounded-lg"
+                    src="/adobe-illustrator-cc-icon.svg"
+                    width={37}
+                    height={53}
+                    alt="illustrator icon"
+                  />
+                  <Image
+                    className="mr-2 rounded-lg"
+                    src="/adobe-photoshop-2.svg"
+                    width={37}
+                    height={53}
+                    alt="photoshop icon"
+                  />
+                  <Image
+                    className="mr-2 rounded-lg"
+                    src="/adobe-indesign-cc-icon.svg"
+                    width={37}
+                    height={53}
+                    alt="indesign icon"
+                  />
+                  <Image
+                    className="mr-2 rounded-lg"
+                    src="/premiere-pro-cc.svg"
+                    width={37}
+                    height={53}
+                    alt="premere icon"
+                  />
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                   Design
