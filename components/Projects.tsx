@@ -7,7 +7,7 @@ export default function Projects() {
       className="text-black-600 body-font max-w-5xl mx-auto mt-10"
     >
       <div className="container px-2 py-24 mx-auto">
-        <div className="flex flex-wrap w-full mb-20">
+        <div className="flex flex-wrap w-full mb-12">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
             <h1 className="sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-900">
               PROJECTS 프로젝트
@@ -25,10 +25,10 @@ export default function Projects() {
           <div className="xl:w-1/2 md:w-1/2 p-4">
             <div className="bg-gray-100 p-6 rounded-lg">
               <Image
-                className="h-40 rounded w-full object-cover object-center mb-6"
-                src="/profile.png"
-                width={290}
-                height={400}
+                className="h-60 rounded w-full object-cover object-center mb-6"
+                src="/아타이브로고.png"
+                width={500}
+                height={500}
                 alt="Picture of the author"
               />
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
@@ -41,6 +41,13 @@ export default function Projects() {
           </div>
           <div className="xl:w-1/2 md:w-1/2 p-4">
             <div className="bg-gray-100 p-6 rounded-lg">
+              <Image
+                className="h-60 rounded w-full object-cover object-center mb-6"
+                src="/포폴.png"
+                width={500}
+                height={500}
+                alt="Picture of the author"
+              />
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                 한유진 포트폴리오
               </h2>
@@ -51,6 +58,13 @@ export default function Projects() {
           </div>
           <div className="xl:w-1/2 md:w-1/2 p-4">
             <div className="bg-gray-100 p-6 rounded-lg">
+              <Image
+                className="h-60 rounded w-full object-cover object-center mb-6"
+                src="/todoapp.png"
+                width={600}
+                height={600}
+                alt="Picture of the author"
+              />
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                 To Do App For ADHD 🤩 : 할 일을 실천하기 어려운 사람들을 위한
                 투두앱

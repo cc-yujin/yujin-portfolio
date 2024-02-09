@@ -17,12 +17,13 @@ export default function About() {
           />
         </div>
         <div className="lg:w-3/5 md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center mt-10 mr-7">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black-900">
             안녕하세요!
             <br />
-            프론트엔드 개발자 한유진입니다.
+            <span className="text-green-600">프론트엔드 개발자 한유진</span>
+            입니다.
           </h1>
-          <p className="mb-8 leading-relaxed text-gray-700">
+          <p className="mb-8 leading-relaxed text-gray-800">
             예술대학에서 광고를 전공하고 세상에 좀 더 이로운 기술을 배우고 싶어
             프론트엔드 개발을 시작했습니다.
             <br />

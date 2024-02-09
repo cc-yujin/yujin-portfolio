@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Contact() {
   return (
-    <>
+    <div className="mb-100">
       <div
         id="Contact"
         className="text-black-600 body-font max-w-5xl mx-auto mt-10"
@@ -25,9 +25,9 @@ export default function Contact() {
       </div>
 
       <section className="text-gray-600 body-font">
-        <div className="container px-20 mx-auto mb-10">
+        <div className="container px-20 mx-auto mb-40">
           <div className="flex flex-wrap max-w-screen-lg mx-auto">
-            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full">
+            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full ">
               <Link href="mailto:mooo7570@gmail.com" className="cursor-pointer">
                 <div className="bg-gray-100 rounded-full flex p-4 h-full items-center">
                   <Image
@@ -128,6 +128,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }
