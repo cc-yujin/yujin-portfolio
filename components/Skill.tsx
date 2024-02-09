@@ -4,7 +4,7 @@ export default function Skill() {
   return (
     <div
       id="Skill"
-      className="text-black-600 body-font max-w-5xl mx-auto mt-24 pt-10"
+      className="text-black-600 body-font max-w-5xl mx-auto mt-2 pt-10"
     >
       <div className="container px-2 py-10 mx-auto">
         <div className="flex flex-wrap w-full mb-2">

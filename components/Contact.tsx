@@ -6,7 +6,7 @@ export default function Contact() {
     <div className="mb-100">
       <div
         id="Contact"
-        className="text-black-600 body-font max-w-5xl mx-auto mt-10"
+        className="text-black-600 body-font max-w-5xl mx-auto mt-20"
       >
         <div className="container px-2 py-10 mx-auto">
           <div className="flex flex-wrap w-full ">
