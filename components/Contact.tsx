@@ -101,7 +101,7 @@ export default function Contact() {
               >
                 <div className="bg-gray-100 rounded-full flex p-4 h-full items-center">
                   <Image
-                    src="/letter-n.png"
+                    src="/notion-2.svg"
                     width={23}
                     height={23}
                     alt="notion icon"
