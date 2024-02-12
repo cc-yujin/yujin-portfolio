@@ -9,21 +9,21 @@ export default function Skill() {
       <div className="container px-2 py-10 mx-auto">
         <div className="flex flex-wrap w-full mb-2">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-            <h1 className="sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-900">
+            <h1 className="sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-900 dark:text-white">
               Skill 기술 스택
             </h1>
             <div className="h-1 w-20 bg-green-500 rounded"></div>
           </div>
-          <p className="w-full leading-relaxed text-slate-800 mt-4">
+          <p className="w-full leading-relaxed text-slate-800 mt-4 dark:text-gray-100">
             다양한 프론트엔드 기술을 익히고 있습니다. <br />
             아직 부족하지만 깊이 있게 작동 원리를 이해하고자 노력합니다.
           </p>
         </div>
-        <section className="text-gray-600 body-font max-w-5xl mx-auto">
+        <section className="text-gray-700 body-font max-w-5xl mx-auto">
           <div className="container px-5 py-1 mx-auto">
             <div className="flex flex-wrap -m-4 mt-4">
               <div className="xl:w-1/3 md:w-1/2 sm:w-full p-4">
-                <div className="border border-gray-200 p-6 rounded-lg">
+                <div className="border border-gray-200 p-6 rounded-lg dark:bg-gray-200">
                   <div className="w-100 h-18 inline-flex items-center justify-center mb-2">
                     <Image
                       className="mr-2 rounded-lg"
@@ -49,7 +49,7 @@ export default function Skill() {
                 </div>
               </div>
               <div className="xl:w-1/3 md:w-1/2 sm:w-full p-4">
-                <div className="border border-gray-200 p-6 rounded-lg">
+                <div className="border border-gray-200 p-6 rounded-lg dark:bg-gray-200">
                   <div className="w-100 h-18 inline-flex items-center justify-center mb-2">
                     <Image
                       className="mr-2 rounded-lg"
@@ -103,7 +103,7 @@ export default function Skill() {
                 </div>
               </div>
               <div className="xl:w-1/3 md:w-1/2 sm:w-full p-4">
-                <div className="border border-gray-200 p-6 rounded-lg">
+                <div className="border border-gray-200 p-6 rounded-lg dark:bg-gray-200">
                   <div className="w-100 h-18 inline-flex items-center justify-center mb-2">
                     <Image
                       className="mr-2 rounded-lg"
@@ -143,7 +143,7 @@ export default function Skill() {
                 </div>
               </div>
               <div className="xl:w-1/3 md:w-1/2 sm:w-full p-4">
-                <div className="border border-gray-200 p-6 rounded-lg">
+                <div className="border border-gray-200 p-6 rounded-lg dark:bg-gray-200">
                   <div className="w-100 h-18 inline-flex items-center justify-center mb-2">
                     <Image
                       className="mr-2 rounded-lg"
@@ -190,7 +190,7 @@ export default function Skill() {
                 </div>
               </div>
               <div className="xl:w-1/3 md:w-1/2 sm:w-full p-4">
-                <div className="border border-gray-200 p-6 rounded-lg">
+                <div className="border border-gray-200 p-6 rounded-lg dark:bg-gray-200">
                   <div className="w-100 h-18 inline-flex items-center justify-center mb-2">
                     <Image
                       className="mr-2 rounded-lg"
@@ -214,7 +214,7 @@ export default function Skill() {
                 </div>
               </div>
               <div className="xl:w-1/3 md:w-1/2 sm:w-full p-4">
-                <div className="border border-gray-200 p-6 rounded-lg">
+                <div className="border border-gray-200 p-6 rounded-lg dark:bg-gray-200">
                   <div className="w-100 h-18 inline-flex items-center justify-center mb-2">
                     <Image
                       className="mr-2 rounded-lg"

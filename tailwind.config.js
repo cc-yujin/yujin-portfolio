@@ -1,7 +1,8 @@
-import type { Config } from 'tailwindcss'
-
-const config: Config = {
+const config = {
   mode: 'jit',
+  experimental: {
+    applyComplexClassesPrefix: true,
+  },
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -19,4 +20,5 @@ const config: Config = {
   },
   plugins: [],
 }
-export default config
+
+module.exports = config

@@ -23,7 +23,7 @@ export default function About() {
             <span className="text-green-600">프론트엔드 개발자 한유진</span>
             입니다.
           </h1>
-          <p className="mb-8 leading-relaxed text-gray-800">
+          <p className="mb-8 leading-relaxed text-gray-800 dark:text-white">
             예술대학에서 광고를 전공하고 세상에 좀 더 이로운 기술을 배우고 싶어
             프론트엔드 개발을 시작했습니다.
             <br />

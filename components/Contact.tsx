@@ -11,12 +11,12 @@ export default function Contact() {
         <div className="container px-2 py-10 mx-auto">
           <div className="flex flex-wrap w-full ">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-              <h1 className="sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-900">
+              <h1 className="sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-900 dark:text-white">
                 Contact 연락처
               </h1>
               <div className="h-1 w-20 bg-green-500 rounded"></div>
             </div>
-            <p className="w-full leading-relaxed text-slate-800 mt-4">
+            <p className="w-full leading-relaxed text-slate-800 mt-4 dark:text-gray-100">
               하루하루 꾸준히 성장하는 프론트엔드 개발자입니다. <br />
               아래 다양한 채널로 연락주시면 감사하겠습니다. 😃
             </p>
