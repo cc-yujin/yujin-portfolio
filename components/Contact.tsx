@@ -25,9 +25,9 @@ export default function Contact() {
       </div>
 
       <section className="text-gray-600 body-font">
-        <div className="container px-20 mx-auto mb-40">
+        <div className="container px-26 mx-auto mb-40 ">
           <div className="flex flex-wrap max-w-screen-lg mx-auto">
-            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full ">
+            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full transform transition duration-200 ease-in-out hover:scale-95">
               <Link href="mailto:mooo7570@gmail.com" className="cursor-pointer">
                 <div className="bg-gray-100 rounded-full flex p-4 h-full items-center">
                   <Image
@@ -43,7 +43,7 @@ export default function Contact() {
                 </div>
               </Link>
             </div>
-            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full">
+            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full transform transition duration-200 ease-in-out hover:scale-95">
               <div className="bg-gray-100 rounded-full flex p-4 h-full items-center">
                 <Image
                   src="/telephone.png"
@@ -55,7 +55,7 @@ export default function Contact() {
                 <span className="title-font font-medium">010-2327-9817</span>
               </div>
             </div>
-            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full">
+            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full transform transition duration-200 ease-in-out hover:scale-95">
               <Link
                 href="https://github.com/cc-yujin"
                 className="cursor-pointer"
@@ -73,7 +73,7 @@ export default function Contact() {
                 </div>
               </Link>
             </div>
-            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full">
+            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full transform transition duration-200 ease-in-out hover:scale-95">
               <Link
                 href="https://velog.io/@muscatcola/posts"
                 className="cursor-pointer"
@@ -93,7 +93,7 @@ export default function Contact() {
                 </div>
               </Link>
             </div>
-            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full">
+            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full transform transition duration-200 ease-in-out hover:scale-95">
               <Link
                 href="https://nine-arthropod-974.notion.site/c5a30bf79b654216bc79024c30cd1551"
                 className="cursor-pointer"
@@ -113,7 +113,7 @@ export default function Contact() {
                 </div>
               </Link>
             </div>
-            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full">
+            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full transform transition duration-200 ease-in-out hover:scale-95">
               <div className="bg-gray-100 rounded-full flex p-4 h-full items-center">
                 <Image
                   src="/downloads.png"

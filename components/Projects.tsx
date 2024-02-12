@@ -22,7 +22,7 @@ export default function Projects() {
         </div>
 
         <div className="flex flex-wrap -m-4">
-          <div className="xl:w-1/2 md:w-1/2 p-4">
+          <div className="xl:w-1/2 md:w-1/2 sm:w-full w-full p-4 hover:cursor-pointer transform transition duration-200 ease-in-out hover:scale-95">
             <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 className="h-60 rounded w-full object-cover object-center mb-6"
@@ -31,15 +31,24 @@ export default function Projects() {
                 height={500}
                 alt="Picture of the author"
               />
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+              <h2 className="text-xl text-gray-900 font-medium title-font mb-5 ml-1">
                 아타이브: 서울시 문화행사 모음 플랫폼
               </h2>
               <p className="leading-relaxed text-base dark:text-gray-800">
+                <span className="bg-blue-300 rounded-full px-2 text-gray-900 mr-2">
+                  기간
+                </span>
+                2023.11 ~ 2024.2 [팀프로젝트]
+              </p>
+              <p className="leading-relaxed text-base dark:text-gray-800">
+                <span className="bg-green-300 rounded-full px-2 text-gray-900 mr-2">
+                  기술
+                </span>
                 React, JavaScript, Recoil, Axios, Emotion, Kakao Maps API
               </p>
             </div>
           </div>
-          <div className="xl:w-1/2 md:w-1/2 p-4">
+          <div className="xl:w-1/2 md:w-1/2 sm:w-full w-full p-4 hover:cursor-pointer transform transition duration-200 ease-in-out hover:scale-95">
             <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 className="h-60 rounded w-full object-cover object-center mb-6"
@@ -48,15 +57,24 @@ export default function Projects() {
                 height={500}
                 alt="Picture of the author"
               />
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+              <h2 className="text-xl text-gray-900 font-medium title-font mb-5 ml-1">
                 한유진 포트폴리오
               </h2>
               <p className="leading-relaxed text-base dark:text-gray-800">
-                Next.js, TypeScript, Vercel, Tailwind CSS, Vercel
+                <span className="bg-blue-300 rounded-full px-2 text-gray-900 mr-2">
+                  기간
+                </span>
+                2023.2.3 ~ 2024.2.12
+              </p>
+              <p className="leading-relaxed text-base dark:text-gray-800">
+                <span className="bg-green-300 rounded-full px-2 text-gray-900 mr-2">
+                  기술
+                </span>
+                Next.js, React, TypeScript, Vercel, Tailwind CSS, Vercel
               </p>
             </div>
           </div>
-          <div className="xl:w-1/2 md:w-1/2 p-4">
+          <div className="xl:w-1/2 md:w-1/2 sm:w-full w-full p-4 hover:cursor-pointer transform transition duration-200 ease-in-out hover:scale-95">
             <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 className="h-60 rounded w-full object-cover object-center mb-6"
@@ -65,11 +83,20 @@ export default function Projects() {
                 height={600}
                 alt="Picture of the author"
               />
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+              <h2 className="text-xl text-gray-900 font-medium title-font mb-5 ml-1">
                 To Do App For ADHD 🤩 : 할 일을 실천하기 어려운 사람들을 위한
                 투두앱
               </h2>
               <p className="leading-relaxed text-base dark:text-gray-800">
+                <span className="bg-blue-300 rounded-full px-2 text-gray-900 mr-2">
+                  기간
+                </span>
+                2023.9.5 ~ 2023.9.14
+              </p>
+              <p className="leading-relaxed text-base dark:text-gray-800">
+                <span className="bg-green-300 rounded-full px-2 text-gray-900 mr-2">
+                  기술
+                </span>
                 React, JavaScript, Netlify, styled-components
               </p>
             </div>

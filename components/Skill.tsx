@@ -22,8 +22,8 @@ export default function Skill() {
         <section className="text-gray-700 body-font max-w-5xl mx-auto">
           <div className="container px-5 py-1 mx-auto">
             <div className="flex flex-wrap -m-4 mt-4">
-              <div className="xl:w-1/3 md:w-1/2 sm:w-full p-4">
-                <div className="border border-gray-200 p-6 rounded-lg dark:bg-gray-100">
+              <div className="xl:w-1/3 md:w-1/2 sm:w-full w-full p-4">
+                <div className="border border-gray-200 p-6 rounded-lg dark:bg-gray-100 ">
                   <div className="w-100 h-18 inline-flex items-center justify-center mb-2">
                     <Image
                       className="mr-2 rounded-lg"
@@ -48,7 +48,7 @@ export default function Skill() {
                   </p>
                 </div>
               </div>
-              <div className="xl:w-1/3 md:w-1/2 sm:w-full p-4">
+              <div className="xl:w-1/3 md:w-1/2 sm:w-full w-full p-4">
                 <div className="border border-gray-200 p-6 rounded-lg dark:bg-gray-100">
                   <div className="w-100 h-18 inline-flex items-center justify-center mb-2">
                     <Image
@@ -102,7 +102,7 @@ export default function Skill() {
                   </p>
                 </div>
               </div>
-              <div className="xl:w-1/3 md:w-1/2 sm:w-full p-4">
+              <div className="xl:w-1/3 md:w-1/2 sm:w-full w-full p-4">
                 <div className="border border-gray-200 p-6 rounded-lg dark:bg-gray-100">
                   <div className="w-100 h-18 inline-flex items-center justify-center mb-2">
                     <Image
@@ -142,7 +142,7 @@ export default function Skill() {
                   </p>
                 </div>
               </div>
-              <div className="xl:w-1/3 md:w-1/2 sm:w-full p-4">
+              <div className="xl:w-1/3 md:w-1/2 sm:w-full w-full p-4">
                 <div className="border border-gray-200 p-6 rounded-lg dark:bg-gray-100">
                   <div className="w-100 h-18 inline-flex items-center justify-center mb-2">
                     <Image
@@ -189,7 +189,7 @@ export default function Skill() {
                   </p>
                 </div>
               </div>
-              <div className="xl:w-1/3 md:w-1/2 sm:w-full p-4">
+              <div className="xl:w-1/3 md:w-1/2 sm:w-full w-full p-4">
                 <div className="border border-gray-200 p-6 rounded-lg dark:bg-gray-100">
                   <div className="w-100 h-18 inline-flex items-center justify-center mb-2">
                     <Image
@@ -213,7 +213,7 @@ export default function Skill() {
                   <p className="leading-relaxed text-base">Netlify, Vercel</p>
                 </div>
               </div>
-              <div className="xl:w-1/3 md:w-1/2 sm:w-full p-4">
+              <div className="xl:w-1/3 md:w-1/2 sm:w-full w-full p-4">
                 <div className="border border-gray-200 p-6 rounded-lg dark:bg-gray-100">
                   <div className="w-100 h-18 inline-flex items-center justify-center mb-2">
                     <Image

@@ -7,23 +7,23 @@ export default function About() {
       className="text-black-600 body-font px- max-w-5xl mx-auto mt-10"
     >
       <div className="container mx-auto flex px-2 py-24 md:flex-row flex-col items-center">
-        <div className="lg:w-2/5  md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <div className="lg:w-2/5 md:w-1/2 w-5/6 mb-8 md:mb-0">
           <Image
             className="object-cover object-center rounded-lg mx-auto"
             src="/profile.png"
-            width={290}
+            width={310}
             height={400}
             alt="Picture of the author"
           />
         </div>
-        <div className="lg:w-3/5 md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center mt-10 mr-7">
+        <div className="lg:w-3/5 md:w-1/2 lg:pl-18 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center mt-10">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black-900">
             안녕하세요!
             <br />
             <span className="text-green-600">프론트엔드 개발자 한유진</span>
             입니다.
           </h1>
-          <p className="mb-8 leading-relaxed text-gray-800 dark:text-white">
+          <p className="mb-8 leading-relaxed text-gray-800 dark:text-gray-300">
             예술대학에서 광고를 전공하고 세상에 좀 더 이로운 기술을 배우고 싶어
             프론트엔드 개발을 시작했습니다.
             <br />

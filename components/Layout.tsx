@@ -8,7 +8,7 @@ export interface LayoutProps {
 
 export default function Layout(props: LayoutProps) {
   return (
-    <div className="bg-primary dark:bg-gray-900 w-1023 mx-auto">
+    <div className="bg-primary dark:bg-gray-900 mx-auto">
       <Header />
       <div> {props.children}</div>
       <Footer />
