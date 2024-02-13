@@ -30,7 +30,7 @@ export default function ArthiveProject() {
               2023.11 ~ 2024.2 [팀프로젝트]
             </span>
           </p>
-          <p className="leading-relaxed text-base dark:text-gray-800 mt-4">
+          <p className="leading-relaxed text-base dark:text-gray-800 mt-4 mb-4">
             <span className="bg-green-300 rounded-full px-2 text-gray-900 mr-2">
               기술
             </span>
@@ -38,6 +38,17 @@ export default function ArthiveProject() {
               React, JavaScript, Recoil, Axios, Emotion, Kakao Maps API
             </span>
           </p>
+          <Link
+            href={'https://github.com/Arthive-project/Arthive-FE'}
+            className="cursor-pointer"
+            target="_blank"
+          >
+            <p className="leading-relaxed text-base dark:text-gray-800 mt-4 inline">
+              <span className="bg-orange-300 rounded-full px-2 text-gray-900 mr-2">
+                깃헙 링크로 이동하기
+              </span>
+            </p>
+          </Link>
           <div className="flex flex-wrap -m-4 my-10">
             <Image
               className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
@@ -315,17 +326,16 @@ export default function ArthiveProject() {
             <div className="h-1 w-20 bg-green-500 rounded"></div>
           </div>
           <p className="w-full leading-relaxed text-slate-800 mt-4 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
-            • 첫 팀 프로젝트의 팀장을 맡아 기획, 일정 관리 그리고 팀 회의를
-            주도하였습니다. 개발 기능 구현 외에도 협업 능력을 기를 수 있는
-            기회였습니다.
-            <br />
-            • GitHub PR, Commit 컨벤션을 활용하며 효율적인 코드 협업을
-            실천했습니다. <br />• 서비스의 기본적인 기능인 유저(로그인,
-            회원가입) 기능과 게시물 CRUD 기능을 모두 구현했습니다. 다양한 구현
-            방법이 존재하며 서비스의 성격에 따라 적합한 기술을 선택하여 적용할
-            수 있다는 것을 배웠습니다. <br />• 유저의 인증과 인가에 대해
-            학습하고 실제로 구현함으로써, 보안과 관련된 측면에 대해 더욱 깊게
-            고민할 수 있는 시간을 가졌습니다.
+            • 첫 팀 프로젝트의 <b>팀장</b>을 맡아 기획, 일정 관리 그리고 팀
+            회의를 주도하였습니다. 개발 기능 구현 외에도 <b>협업 능력</b>을 기를
+            수 있는 기회였습니다.
+            <br />• <b>GitHub PR, Commit 컨벤션</b>을 활용하며 효율적인{' '}
+            <b>코드 협업</b>을 실천했습니다. <br />• 서비스의 기본적인 기능인{' '}
+            <b>유저(로그인, 회원가입) 기능</b>과 <b>시물 CRUD 기능</b>을 모두
+            구현했습니다. 다양한 구현 방법이 존재하며 서비스의 성격에 따라
+            적합한 기술을 선택하여 적용할 수 있다는 것을 배웠습니다. <br />•
+            유저의 인증과 인가에 대해 학습하고 실제로 구현함으로써, <b>보안</b>
+            과 관련된 측면에 대해 더욱 깊게 고민할 수 있는 시간을 가졌습니다.
           </p>
         </div>
         <div className="flex flex-wrap w-full mb-12 mt-32">
