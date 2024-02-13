@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Skill() {
   return (
     <div
-      id="Skill"
+      id="skill"
       className="text-black-600 body-font max-w-5xl mx-auto mt-2 pt-10"
     >
       <div className="container px-2 py-10 mx-auto">

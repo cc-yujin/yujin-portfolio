@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="mb-100">
       <div
-        id="Contact"
+        id="contact"
         className="text-black-600 body-font max-w-5xl mx-auto mt-20"
       >
         <div className="container px-2 py-10 mx-auto">
