@@ -159,7 +159,7 @@ export default function PortFolioProject() {
           />
           <p className="w-full leading-relaxed text-slate-800 mt-3 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
             • <b>다크/라이트 모드</b> 토글 버튼 클릭 시 페이지의 테마가
-            전환되도록 구현 <br />• <b>ThemeProvide를</b> App 컴포넌트에
+            전환되도록 구현 <br />• <b>ThemeProvide</b>를 App 컴포넌트에
             적용하여 모든 페이지와 컴포넌트에서 사용 가능
           </p>
           <h2 className="sm:text-xl text-xl title-font text-gray-900 dark:text-white mt-16 my-6">
@@ -194,16 +194,16 @@ export default function PortFolioProject() {
             방식에 대해 학습했습니다.
             <br />• 데이터를 가져오는 방법에 따른 <b>getStaticProps</b>와
             <b>getServerSideProps</b> 함수를 적용하며 각각의 특징을 익혔습니다.
-            <br />• 프로젝트를 계속해서 업데이트 할 목적으로
-            getServerSideProps로 구현했으나, 업데이트 주기가 느리고 실시간
+            <br />• 처음엔 프로젝트를 계속해서 업데이트 할 목적으로
+            getServerSideProps로 구현했었으나, 업데이트 주기가 느리고 실시간
             요청이 필요하지 않은 <b>프로젝트의 성격</b>에 맞추어{' '}
             <b>getStaticProps</b>로 수정하였습니다.
             <br />• Image 최적화 관련 트러블슈팅을 경험하면서{' '}
             <b>Next.js의 Image 컴포넌트</b>를 통한 최적화를 알게 되었습니다.
-            <br />• 노션 API를 활용하며 발생한 이미지 로딩 오류를{' '}
-            <b>next.config.js</b>
-            파일에 images 속성을 추가하는 방법을 통해 <b>크로스 오리진 이슈</b>
-            를 해결하였습니다.
+            <br />• 노션 데이터베이스 API를 활용하여 개발 중에 커버{' '}
+            <b>이미지 로딩 오류</b>가 발생하였습니다. <b>next.config.js</b>
+            파일의 images: domain 주소를 추가하는 방법을 통해{' '}
+            <b>크로스 오리진 이슈</b>를 해결하였습니다.
           </p>
         </div>
       </div>
