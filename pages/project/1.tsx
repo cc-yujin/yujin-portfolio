@@ -298,7 +298,9 @@ export default function ArthiveProject() {
           />
           <p className="w-full leading-relaxed text-slate-800 my-3 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
             <b className="text-lg">3. 문화 정보 게시물 등록</b> <br /> • Kakao
-            지도 api 활용하여 상세 주소 입력시 위도, 경도 자동 변환 <br />
+            지도 api 활용하여 상세 주소 입력시 위도, 경도가 자동으로 변환되어
+            입력되도록 구현
+            <br />
             • base64를 통한 이미지 업로드
             <br />• 이미지 미리보기
           </p>
