@@ -135,16 +135,16 @@ export default function PortFolioProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/todoapp/할일추가.gif"
+            src="/portfolio/반응형.gif"
             width={800}
             height={800}
             alt="Picture of the author"
           />
           <p className="w-full leading-relaxed text-slate-800 mt-3 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
-            • PC, Tablet, Mobile 등 다양한 화면에서 볼 수 있도록 반응형 웹으로
-            구현
-            <br />• Tailwind CSS의 정의된 미디어 쿼리를 활용하여 각 뷰포트에
-            따른 스타일 적용
+            • PC, Tablet, Mobile 등 다양한 화면에서 볼 수 있도록{' '}
+            <b>반응형 웹</b>으로 구현
+            <br />• <b>Tailwind CSS</b>의 정의된 <b>미디어 쿼리</b>를 활용하여
+            각 뷰포트에 따른 스타일 적용
           </p>
 
           <h2 className="sm:text-xl text-xl title-font text-gray-900 dark:text-white mt-16 my-6">
@@ -152,29 +152,32 @@ export default function PortFolioProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center my-8 drop-shadow-xl mx-auto"
-            src="/todoapp/할일수정완료삭제3.gif"
+            src="/portfolio/다크모드.gif"
             width={800}
             height={800}
             alt="Picture of the author"
           />
           <p className="w-full leading-relaxed text-slate-800 mt-3 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
-            • 다크/라이트 모드 토글 버튼 클릭 시 페이지의 테마가 전환되도록 구현{' '}
-            <br />• ThemeProvide를 App 컴포넌트에 적용하여 모든 페이지와
-            컴포넌트에서 사용 가능
+            • <b>다크/라이트 모드</b> 토글 버튼 클릭 시 페이지의 테마가
+            전환되도록 구현 <br />• <b>ThemeProvide를</b> App 컴포넌트에
+            적용하여 모든 페이지와 컴포넌트에서 사용 가능
           </p>
           <h2 className="sm:text-xl text-xl title-font text-gray-900 dark:text-white mt-16 my-6">
-            3. 노션 API를 통한 데이터 관리
+            3. 노션 API 연동
           </h2>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/todoapp/세부항목생성완료삭제.gif"
+            src="/portfolio/데이터베이스.png"
             width={800}
             height={800}
             alt="Picture of the author"
           />
           <p className="w-full leading-relaxed text-slate-800 mt-3 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
-            • 노션의 데이터베이스를 활용하여 노션 API 연동
-            <br /> • getServerSideProps 함수로 구현
+            • <b>노션 API</b>를 연동하여 <b>데이터베이스</b>의 프로젝트 정보를
+            렌더링하여 화면에 노출
+            <br /> • 프로젝트 성격에 따라 <b>getStaticProps</b> 함수로 구현
+            <br /> • 호출된 결과값을 ProjectItem 컴포넌트로 넘겨주어{' '}
+            <b>설정한 배열 순서대로 렌더링</b>
           </p>
         </div>
         {/*구현기능 동작예시 끝*/}
@@ -186,10 +189,21 @@ export default function PortFolioProject() {
             <div className="h-1 w-20 bg-green-500 rounded"></div>
           </div>
           <p className="w-full leading-relaxed text-slate-800 mt-4 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
-            • React의 react-router-dom 라이브러리와 다른 Next.js의 pages 라우팅
+            • React의 react-router-dom 라이브러리와 다른{' '}
+            <b>Next.js의 pages 라우팅</b>
             방식에 대해 학습했습니다.
-            <br />• 데이터를 가져오는 방법에 따른 getStaticProps와
-            getServerSideProps 함수를 적용하며 각각의 특징을 익혔습니다.
+            <br />• 데이터를 가져오는 방법에 따른 <b>getStaticProps</b>와
+            <b>getServerSideProps</b> 함수를 적용하며 각각의 특징을 익혔습니다.
+            <br />• 프로젝트를 계속해서 업데이트 할 목적으로
+            getServerSideProps로 구현했으나, 업데이트 주기가 느리고 실시간
+            요청이 필요하지 않은 <b>프로젝트의 성격</b>에 맞추어{' '}
+            <b>getStaticProps</b>로 수정하였습니다.
+            <br />• Image 최적화 관련 트러블슈팅을 경험하면서{' '}
+            <b>Next.js의 Image 컴포넌트</b>를 통한 최적화를 알게 되었습니다.
+            <br />• 노션 API를 활용하며 발생한 이미지 로딩 오류를{' '}
+            <b>next.config.js</b>
+            파일에 images 속성을 추가하는 방법을 통해 <b>크로스 오리진 이슈</b>
+            를 해결하였습니다.
           </p>
         </div>
       </div>

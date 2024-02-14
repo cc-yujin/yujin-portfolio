@@ -4,14 +4,15 @@ import Layout from '../components/Layout'
 import Skill from '../components/Skill'
 import Contact from '../components/Contact'
 import { TOKEN, DATABASE_ID } from '../config/index'
-import type { InferGetServerSidePropsType, GetServerSideProps } from 'next'
+// import type { InferGetServerSidePropsType, GetServerSideProps } from 'next'
+import type { InferGetStaticPropsType, GetStaticProps } from 'next'
 
 type Projects = {
   name: string
   stargazers_count: number
 }
 
-export const getServerSideProps: GetServerSideProps<{
+export const getStaticProps: GetStaticProps<{
   projects: Projects
 }> = async () => {
   const options = {
@@ -31,13 +32,12 @@ export const getServerSideProps: GetServerSideProps<{
   )
   const projects = await res.json()
 
-  // console.log(`projectNames : ${projectNames}`)
   return { props: { projects } }
 }
 
 export default function Home({
   projects,
-}: InferGetServerSidePropsType<typeof getServerSideProps>) {
+}: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <div>
       <Layout>

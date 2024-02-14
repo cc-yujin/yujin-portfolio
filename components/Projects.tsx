@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 
 export default function Projects({ repo }: any) {
