@@ -114,16 +114,24 @@ export default function Contact() {
               </Link>
             </div>
             <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full transform transition duration-200 ease-in-out hover:scale-95">
-              <div className="bg-gray-100 rounded-full flex p-4 h-full items-center">
-                <Image
-                  src="/downloads.png"
-                  width={23}
-                  height={23}
-                  alt="downloads icon"
-                  className="mr-3"
-                />
-                <span className="title-font font-medium">이력서 다운로드</span>
-              </div>
+              <a
+                href="/[프론트엔드]한유진 이력서.pdf"
+                className="cursor-pointer"
+                download
+              >
+                <div className="bg-gray-100 rounded-full flex p-4 h-full items-center">
+                  <Image
+                    src="/downloads.png"
+                    width={23}
+                    height={23}
+                    alt="downloads icon"
+                    className="mr-3"
+                  />
+                  <span className="title-font font-medium">
+                    이력서 다운로드
+                  </span>
+                </div>
+              </a>
             </div>
           </div>
         </div>
