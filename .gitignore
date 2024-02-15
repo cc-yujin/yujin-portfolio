@@ -5,5 +5,4 @@
 node_modules
 
 # Ignore .env.local
-NOTION_TOKEN=secret_I5evm9vSRVGL2jNQidQNM4t9lhzDdBv5wblCXcI2PTw
-NOTION_DATABASE_ID=9c005f16321245758ebfcf424ff77f7b
+.env.local
