@@ -4,7 +4,6 @@ import Layout from '../components/Layout'
 import Skill from '../components/Skill'
 import Contact from '../components/Contact'
 import { TOKEN, DATABASE_ID } from '../config/index'
-// import type { InferGetServerSidePropsType, GetServerSideProps } from 'next'
 import type { InferGetStaticPropsType, GetStaticProps } from 'next'
 
 type Projects = {
