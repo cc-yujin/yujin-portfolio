@@ -114,11 +114,7 @@ export default function Contact() {
               </Link>
             </div>
             <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full transform transition duration-200 ease-in-out hover:scale-95">
-              <a
-                href="/[프론트엔드]한유진 이력서.pdf"
-                className="cursor-pointer"
-                download
-              >
+              <a href="/한유진이력서.pdf" className="cursor-pointer" download>
                 <div className="bg-gray-100 rounded-full flex p-4 h-full items-center">
                   <Image
                     src="/downloads.png"
