@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 
 export default function Skill() {
   return (
@@ -265,5 +265,5 @@ export default function Skill() {
         </section>{' '}
       </div>
     </div>
-  )
+  );
 }

@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import Layout from '../../components/Layout'
+import Image from 'next/image';
+import Link from 'next/link';
+import Layout from '../../components/Layout';
 
 export default function ToDoAppProject() {
   return (
@@ -255,5 +255,5 @@ export default function ToDoAppProject() {
         </div>
       </div>
     </Layout>
-  )
+  );
 }

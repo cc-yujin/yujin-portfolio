@@ -1,13 +1,13 @@
-import ProjectItem from './ProjectItem'
+import ProjectItem from './ProjectItem';
 
 export default function Projects({ repo }: any) {
-  const projects = repo.results ? [...repo.results] : []
+  const projects = repo.results ? [...repo.results] : [];
 
   projects.sort((a, b) => {
-    const startA = new Date(a.properties['진행 기간'].date.start).getTime()
-    const startB = new Date(b.properties['진행 기간'].date.start).getTime()
-    return startB - startA
-  })
+    const startA = new Date(a.properties['진행 기간'].date.start).getTime();
+    const startB = new Date(b.properties['진행 기간'].date.start).getTime();
+    return startB - startA;
+  });
 
   return (
     <div
@@ -30,10 +30,10 @@ export default function Projects({ repo }: any) {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => {
-            return <ProjectItem key={project.id} project={project} />
+            return <ProjectItem key={project.id} project={project} />;
           })}
         </div>
       </div>
     </div>
-  )
+  );
 }

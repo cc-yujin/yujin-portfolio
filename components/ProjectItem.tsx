@@ -1,16 +1,16 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import { ProjectItem } from '../types/types'
+import Image from 'next/image';
+import Link from 'next/link';
+import { ProjectItem } from '../types/types';
 
 export default function ProjectItem({
   project: { cover, properties },
 }: ProjectItem) {
-  const title = properties.Name.title[0].plain_text
-  const start = properties['진행 기간']?.date?.start ?? ''
-  const end = properties['진행 기간']?.date?.end ?? ''
-  const skill = properties['skill']?.rich_text[0]?.plain_text ?? ''
-  const detailLink = properties['detailLink']?.rich_text[0]?.plain_text ?? ''
-  const imgSrc = cover.file?.url || properties.cover.external.url
+  const title = properties.Name.title[0].plain_text;
+  const start = properties['진행 기간']?.date?.start ?? '';
+  const end = properties['진행 기간']?.date?.end ?? '';
+  const skill = properties['skill']?.rich_text[0]?.plain_text ?? '';
+  const detailLink = properties['detailLink']?.rich_text[0]?.plain_text ?? '';
+  const imgSrc = cover.file?.url || properties.cover.external.url;
 
   return (
     <div className="xl:w-1/2 md:w-1/2 sm:w-full w-full p-4 transform transition duration-200 ease-in-out hover:scale-95">
@@ -41,5 +41,5 @@ export default function ProjectItem({
         </div>
       </Link>
     </div>
-  )
+  );
 }

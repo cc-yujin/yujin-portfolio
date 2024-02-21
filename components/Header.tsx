@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import DarkModeButton from './DarkModeButton'
+import Link from 'next/link';
+import DarkModeButton from './DarkModeButton';
 
 export default function Header() {
   return (
@@ -44,5 +44,5 @@ export default function Header() {
         </div>
       </header>
     </div>
-  )
+  );
 }
