@@ -28,7 +28,6 @@ export default function Projects({ repo }: any) {
             새로운 기술에 관심이 생기면 곧바로 도전하고 실행하며 학습합니다.
           </p>
         </div>
-
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => {
             return <ProjectItem key={project.id} project={project} />
