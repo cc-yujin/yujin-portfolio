@@ -55,7 +55,7 @@ export default function ArthiveProject() {
               src="/아타이브로고2.png"
               width={800}
               height={800}
-              alt="Picture of the author"
+              alt="아타이브 로고"
             />
           </div>
           <div className="flex flex-wrap w-full mb-12 mt-32">
@@ -138,7 +138,7 @@ export default function ArthiveProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/arthive/메인페이지.gif"
+            src="/arthive/main-page.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -152,7 +152,7 @@ export default function ArthiveProject() {
           </p>
           <Image
             className="h-90 rounded object-cover object-center my-8 drop-shadow-xl mx-auto"
-            src="/arthive/네비바.gif"
+            src="/arthive/navbar.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -169,7 +169,7 @@ export default function ArthiveProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/arthive/카테고리상세페이지.gif"
+            src="/arthive/category-detail.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -188,7 +188,7 @@ export default function ArthiveProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/arthive/로그인.gif"
+            src="/arthive/login.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -207,7 +207,7 @@ export default function ArthiveProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/arthive/회원가입.gif"
+            src="/arthive/signup.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -220,7 +220,7 @@ export default function ArthiveProject() {
           </p>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/arthive/회원가입불가.gif"
+            src="/arthive/signup-fail.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -234,7 +234,7 @@ export default function ArthiveProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/arthive/휴대폰번호변경.gif"
+            src="/arthive/phone-number-change.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -251,7 +251,7 @@ export default function ArthiveProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/arthive/공연행사등록신청폼.gif"
+            src="/arthive/register-form.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -265,7 +265,7 @@ export default function ArthiveProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/arthive/어드민로그인로그아웃.gif"
+            src="/arthive/admin-login-out.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -278,7 +278,7 @@ export default function ArthiveProject() {
           </p>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/arthive/게시물검색필터.gif"
+            src="/arthive/search-filter.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -291,7 +291,7 @@ export default function ArthiveProject() {
           </p>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/arthive/어드민_게시물등록.gif"
+            src="/arthive/admin-register.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -306,7 +306,7 @@ export default function ArthiveProject() {
           </p>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/arthive/어드민유저관리.png"
+            src="/arthive/admin-user.png"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -315,7 +315,7 @@ export default function ArthiveProject() {
             (해당 이미지는 png 파일입니다)
           </p>
           <p className="w-full leading-relaxed text-slate-800 my-3 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
-            <b className="text-lg">4. 유전 관리</b> <br /> • 회원가입 된 전체
+            <b className="text-lg">4. 유저 관리</b> <br /> • 회원가입 된 전체
             유저 목록 <br />• 유저 상세 정보 확인
           </p>
         </div>

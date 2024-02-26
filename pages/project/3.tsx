@@ -145,7 +145,7 @@ export default function ToDoAppProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/todoapp/할일추가.gif"
+            src="/todoapp/todo-add.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -162,7 +162,7 @@ export default function ToDoAppProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center my-8 drop-shadow-xl mx-auto"
-            src="/todoapp/할일수정완료삭제3.gif"
+            src="/todoapp/todo-done-delete.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -178,7 +178,7 @@ export default function ToDoAppProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/todoapp/세부항목생성완료삭제.gif"
+            src="/todoapp/detail-done-delete.gif"
             width={800}
             height={800}
             alt="Picture of the author"

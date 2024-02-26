@@ -10,10 +10,11 @@ export default function About() {
         <div className="lg:w-2/5 md:w-1/2 w-5/6 mb-8 md:mb-0">
           <Image
             className="object-cover object-center rounded-lg mx-auto"
+            priority
             src="/profile.png"
-            width={310}
-            height={400}
-            alt="Picture of the author"
+            width={280}
+            height={300}
+            alt="프로필 이미지"
           />
         </div>
         <div className="lg:w-3/5 md:w-1/2 lg:pl-18 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center mt-10">

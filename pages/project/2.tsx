@@ -62,7 +62,7 @@ export default function PortFolioProject() {
           <div className="flex flex-wrap -m-4 my-10">
             <Image
               className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-              src="/portfolio/포폴메인.png"
+              src="/portfolio/portfolio-main.png"
               width={800}
               height={800}
               alt="Picture of the author"
@@ -135,7 +135,7 @@ export default function PortFolioProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/portfolio/반응형.gif"
+            src="/portfolio/responsive.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -152,7 +152,7 @@ export default function PortFolioProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center my-8 drop-shadow-xl mx-auto"
-            src="/portfolio/다크모드.gif"
+            src="/portfolio/dark-mode.gif"
             width={800}
             height={800}
             alt="Picture of the author"
@@ -167,7 +167,7 @@ export default function PortFolioProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/portfolio/데이터베이스.png"
+            src="/portfolio/db.png"
             width={800}
             height={800}
             alt="Picture of the author"
