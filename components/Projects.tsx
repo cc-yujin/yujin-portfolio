@@ -1,14 +1,6 @@
 import ProjectItem from './ProjectItem';
 
 export default function Projects({ repo }: any) {
-  const projects = repo.results ? [...repo.results] : [];
-
-  projects.sort((a, b) => {
-    const startA = new Date(a.properties['진행 기간'].date.start).getTime();
-    const startB = new Date(b.properties['진행 기간'].date.start).getTime();
-    return startB - startA;
-  });
-
   return (
     <div
       id="projects"
@@ -29,8 +21,8 @@ export default function Projects({ repo }: any) {
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          {projects.map((project) => {
-            return <ProjectItem key={project.id} project={project} />;
+          {repo.map((repoItem: any) => {
+            return <ProjectItem key={repoItem.id} project={repoItem} />;
           })}
         </div>
       </div>
