@@ -28,7 +28,7 @@ export default function ToDoAppProject() {
               기간
             </span>
             <span className="dark:text-gray-50">
-              2023.09.05 ~ 2024.09.14 [개인 프로젝트]
+              2023.09.05 ~ 2023.09.14 [개인 프로젝트]
             </span>
           </p>
           <p className="leading-relaxed text-base dark:text-gray-800 mt-4 mb-4">

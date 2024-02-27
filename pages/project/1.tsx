@@ -27,7 +27,7 @@ export default function ArthiveProject() {
               기간
             </span>
             <span className="dark:text-gray-50">
-              2023.11 ~ 2024.2 [팀프로젝트]
+              2023.11.17 ~ 2024.1.31 (팀프로젝트: 프론트엔드 1명, 백엔드 2명)
             </span>
           </p>
           <p className="leading-relaxed text-base dark:text-gray-800 mt-4 mb-4">
@@ -340,6 +340,7 @@ export default function ArthiveProject() {
             과 관련된 측면에 대해 더욱 깊게 고민할 수 있는 시간을 가졌습니다.
           </p>
         </div>
+
         <div className="flex flex-wrap w-full mb-12 mt-32">
           <div className="lg:w-full w-full mb-6 lg:mb-0">
             <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900 dark:text-white">

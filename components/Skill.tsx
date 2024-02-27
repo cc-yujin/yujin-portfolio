@@ -206,9 +206,16 @@ export default function Skill() {
                       height={53}
                       alt="vercel icon"
                     />
+                    <Image
+                      className="mr-2 rounded-lg"
+                      src="/firebase-logo.svg"
+                      width={30}
+                      height={53}
+                      alt="firebase icon"
+                    />
                   </div>
                   <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
-                    Deploy
+                    Deploy & Database
                   </h2>
                   <p className="leading-relaxed text-base">Netlify, Vercel</p>
                 </div>

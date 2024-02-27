@@ -93,42 +93,9 @@ export default function Contact() {
                 </div>
               </Link>
             </div>
-            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full transform transition duration-200 ease-in-out hover:scale-95">
-              <Link
-                href="https://nine-arthropod-974.notion.site/c5a30bf79b654216bc79024c30cd1551"
-                className="cursor-pointer"
-                target="_blank"
-              >
-                <div className="bg-gray-100 rounded-full flex p-4 h-full items-center">
-                  <Image
-                    src="/notion-2.svg"
-                    width={23}
-                    height={23}
-                    alt="notion icon"
-                    className="mr-3"
-                  />
-                  <span className="title-font font-medium">
-                    노션 포트폴리오
-                  </span>
-                </div>
-              </Link>
-            </div>
-            <div className="p-2 xl:w-1/2 md:w-1/2 sm:w-full w-full transform transition duration-200 ease-in-out hover:scale-95">
-              <a href="/한유진이력서.pdf" className="cursor-pointer" download>
-                <div className="bg-gray-100 rounded-full flex p-4 h-full items-center">
-                  <Image
-                    src="/downloads.png"
-                    width={23}
-                    height={23}
-                    alt="downloads icon"
-                    className="mr-3"
-                  />
-                  <span className="title-font font-medium">
-                    이력서 다운로드
-                  </span>
-                </div>
-              </a>
-            </div>
+
+
+
           </div>
         </div>
       </section>
