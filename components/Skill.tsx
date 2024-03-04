@@ -16,7 +16,7 @@ export default function Skill() {
           </div>
           <p className="w-full leading-relaxed text-slate-800 mt-4 dark:text-gray-100">
             다양한 프론트엔드 기술을 익히고 있습니다. <br />
-            아직 부족하지만 깊이 있게 작동 원리를 이해하고자 노력합니다.
+            단순 기능 구현보다는 깊이 있게 작동 원리를 이해하고자 노력합니다.
           </p>
         </div>
         <section className="text-gray-700 body-font max-w-5xl mx-auto">
@@ -217,7 +217,7 @@ export default function Skill() {
                   <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                     Deploy & Database
                   </h2>
-                  <p className="leading-relaxed text-base">Netlify, Vercel</p>
+                  <p className="leading-relaxed text-base">Netlify, Vercel, Firebase</p>
                 </div>
               </div>
               <div className="xl:w-1/3 md:w-1/2 sm:w-full w-full p-4">

@@ -26,7 +26,7 @@ export default function PortFolioProject() {
               기간
             </span>
             <span className="dark:text-gray-50">
-              2023.02.01 ~ 2024.02.13 [개인 프로젝트]
+              2024.02.01 ~ 2024.02.13 [개인 프로젝트]
             </span>
           </p>
           <p className="leading-relaxed text-base dark:text-gray-800 mt-4 mb-4">
@@ -98,7 +98,14 @@ export default function PortFolioProject() {
               <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900 dark:text-white">
                 사용 기술 및 라이브러리
               </h1>
-              <div className="h-1 w-20 bg-green-500 rounded"></div>
+              <div className="h-1 w-20 bg-green-500 rounded mb-4"></div>
+              <Image
+              className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
+              src="/portfolio/pofol-architecture.png"
+              width={800}
+              height={800}
+              alt="Picture of the author"
+            />
             </div>
             <p className="w-full leading-relaxed text-slate-800 mt-4 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
               • Next.js <br />• TypeScript
@@ -194,15 +201,16 @@ export default function PortFolioProject() {
           </h2>
           <Image
             className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
-            src="/portfolio/rendering.png"
+            src="/portfolio/rendering-chart.png"
             width={800}
             height={800}
             alt="Picture of the author"
           />
           <p className="w-full leading-relaxed text-slate-800 mt-3 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
-            • 렌더링 방식의 <b>성능 비교</b>를 위해 개발자 도구 내 Lighthouse를 활용하여 속도 측정
-            <br /> • 포트폴리오 <b>사이트의 특성</b>(데이터 변동 없음)과 <b>SEO 검색 엔진 최적화</b>, <b>빠른 응답 속도</b>를 위해 최적의 렌더링 방식인 SSG 채택
-            <br /> • SSG 렌더링 방식 채택 후 Lighthouse 점수와 개선 가이드를 참고하여 <b>성능 최적화</b> 진행
+            • 렌더링 방식의 <b>성능 비교</b>를 위해 개발자 도구 내 Performance 탭을 활용하여 페이지 로딩 속도 측정
+            <br /> • 예상과 달리 SSR의 렌더링 방식이 ‘getServerSideProps’의 호출로 인해 로딩 속도가 저하되는 상황이 발생
+            <br /> • 포트폴리오 사이트의 특성을 고려했을 때, 데이터 변동성이 낮고 SEO 최적화와 빠른 페이지 로딩이 핵심
+            <br /> • 이에 따라, 사전에 페이지를 생성하고 필요 시 즉시 제공하는 SSG가 최적의 렌더링 방식이라고 판단하여 적용
           </p>
         </div>
         {/*구현기능 동작예시 끝*/}

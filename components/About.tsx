@@ -26,7 +26,7 @@ export default function About() {
           </h1><br />
           <p className="mb-8 leading-relaxed text-gray-800 dark:text-gray-300">
             대학에서 광고를 전공하며 자연스레 세상을 바꾸는 아이디어에 관심을 가지게 되었습니다.
-            이를 <span className="text-green-600 font-medium">현실로 구현하는 IT 분야</span>에 매료되어 프론트엔드 개발자로서의 여정을 시작하였습다.
+            이를 <span className="text-green-600 font-medium">현실로 구현하는 IT 분야</span>에 매료되어 프론트엔드 개발자로서의 여정을 시작하였습니다.
             <br />
             <br />
             <span className="text-green-600 font-medium">기획과 디자인 경험</span>이 풍부하여 다양한 직무의 구성원들과도 원활하게

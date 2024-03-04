@@ -35,7 +35,7 @@ export default function ArthiveProject() {
               기술
             </span>
             <span className="dark:text-gray-50">
-              React, JavaScript, Recoil, Axios, Emotion, Kakao Maps API
+              React, TypeScript, Recoil, Axios, Emotion, Kakao Maps API
             </span>
           </p>
           <Link
@@ -89,8 +89,15 @@ export default function ArthiveProject() {
               <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900 dark:text-white">
                 사용 기술 및 라이브러리
               </h1>
-              <div className="h-1 w-20 bg-green-500 rounded"></div>
+              <div className="h-1 w-20 bg-green-500 rounded mb-4"></div>
             </div>
+            <Image
+              className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
+              src="/arthive/arthive-architecture.png"
+              width={800}
+              height={800}
+              alt="아타이브 아키텍처"
+            />
             <p className="w-full leading-relaxed text-slate-800 mt-4 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
               • React <br />• JavaScript
               <br /> • Recoil
@@ -110,7 +117,6 @@ export default function ArthiveProject() {
             </div>
             <p className="w-full leading-relaxed text-slate-800 mt-3 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
               • 프로젝트 기획 및 디자인, 프론트 파트 100% 구현 (팀 리더) <br />
-              • 프로젝트 API 문서화 <br />
               • Figma를 활용한 와이어프레임 및 UI 설계 <br />
               • React를 이용하여 사용자와 상호작용하는 동적 UI, 재사용 가능한
               공통 컴포넌트 개발 <br />
@@ -120,9 +126,61 @@ export default function ArthiveProject() {
               • 어드민 대시보드를 제작하여 유저 관리, 게시물 관리(CRUD) 기능
               구현 <br />
               • Recoil을 이용한 유저정보 전역 상태 관리 <br />• Axios를 활용한
-              서버와의 RESTful API 연동
+              서버와의 RESTful API 연동 <br />• TypeScript 마이그레이션 진행중 (2024.03 ~)
             </p>
           </div>
+
+          <div className="flex flex-wrap w-full mb-12 mt-32">
+            <div className="lg:w-full w-full mb-6 lg:mb-0">
+              <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900 dark:text-white">
+                핵심 기능 구현
+              </h1>
+              <div className="h-1 w-20 bg-green-500 rounded"></div>
+            </div>
+          </div>
+          <h2 className="sm:text-xl text-xl title-font text-gray-900 dark:text-white my-6">
+            1. 보안성 강화를 위한 JWT 저장 방식 변환 (localStorage에서 Cookie로)
+          </h2>
+          <Image
+            className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
+            src="/arthive/JWT-localStorage.png"
+            width={500}
+            height={500}
+            alt="Picture of the author"
+          />
+          <p className="w-full leading-relaxed text-slate-800 mt-3 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
+            <b className="text-lg">1. 기존 구현 방식:  localStorage</b> <br /> • 초기 개발 단계에서 JWT를 localStorage에 저장하여 사용했습니다.  
+            <br />• 이 방식은 CSRF 공격에 대해서는 안전한 편이지만 XSS 공격에 취약하다는 단점이 있었습니다.
+          </p>
+          <Image
+            className="h-90 rounded object-cover object-center mb-6 mt-6 drop-shadow-xl mx-auto"
+            src="/arthive/refresh.png"
+            width={600}
+            height={600}
+            alt="Picture of the author"
+          />
+          <p className="w-full leading-relaxed text-slate-800 mt-3 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
+            <b className="text-lg">2. 변경된 저장 방식: Cookie (+ Refresh token)</b> <br /> • 보안성을 향상시키기 위해 JWT 토큰 저장 방식을 Cookie로 변경하였습니다. 
+            <br />• Cookie 저장 시 httpOnly와 Secure 속성을 적용함으로써, XSS 및 CSRF 공격에 대한 취약점을 크게 줄였습니다. 
+            <br />• 보안 안정성을 더욱 높이기 위해 Refresh Token을 사용하여 이중 인증 방식을 도입했습니다.
+          </p>
+
+          <h2 className="sm:text-xl text-xl title-font text-gray-900 dark:text-white my-6">
+          2. Kakao Maps API를 활용한 자동 경위도 변환 기능 구현
+          </h2>
+          <Image
+            className="h-90 rounded object-cover object-center mb-6 drop-shadow-xl mx-auto"
+            src="/arthive/kakaoMaps-logic.png"
+            width={700}
+            height={700}
+            alt="Picture of the author"
+          />
+          <p className="w-full leading-relaxed text-slate-800 mt-3 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
+            1. 어드민이 게시물 작성 페이지에 접속하면 페이지의 컴포넌트가 렌더링되며 useEffect 훅이 실행됩니다. 이 과정에서 Kakao Maps API를 통해 주소-좌표 변환 객체가 생성됩니다.
+            <br />2. 어드민은 주소 필드에 위치 정보를 입력합니다. 입력된 주소는 useEffect의 의존성 배열 [address]에 포함되어, 주소 값이 변경될 때마다 콜백 함수가 실행됩니다. 이 함수는 Kakao 서버에 위치 정보를 요청합니다.
+            <br />3. Kakao 서버는 요청받은 주소 정보를 경도(x), 위도(y) 좌표값으로 변환하여 애플리케이션에 반환합니다.
+            <br />4. useState에 의해 이 좌표값들이 경도와 위도 필드에 설정되며, 화면에 자동으로 출력됩니다.
+          </p>
 
           {/**구현기능 동작 예시 시작*/}
           <div className="flex flex-wrap w-full mb-12 mt-32">
@@ -328,12 +386,12 @@ export default function ArthiveProject() {
             <div className="h-1 w-20 bg-green-500 rounded"></div>
           </div>
           <p className="w-full leading-relaxed text-slate-800 mt-4 dark:text-gray-50 bg-gray-100 rounded-xl p-4 leading-8 dark:text-gray-900">
-            • 첫 팀 프로젝트의 <b>팀장</b>을 맡아 기획, 일정 관리 그리고 팀
+            • 프로젝트의 <b>팀장</b>을 맡아 기획, 일정 관리 그리고 팀
             회의를 주도하였습니다. 개발 기능 구현 외에도 <b>협업 능력</b>을 기를
             수 있는 기회였습니다.
             <br />• <b>GitHub PR, Commit 컨벤션</b>을 활용하며 효율적인{' '}
             <b>코드 협업</b>을 실천했습니다. <br />• 서비스의 기본적인 기능인{' '}
-            <b>유저(로그인, 회원가입) 기능</b>과 <b>시물 CRUD 기능</b>을 모두
+            <b>유저(로그인, 회원가입) 기능</b>과 <b>CRUD 기능</b>을 모두
             구현했습니다. 다양한 구현 방법이 존재하며 서비스의 성격에 따라
             적합한 기술을 선택하여 적용할 수 있다는 것을 배웠습니다. <br />•
             유저의 인증과 인가에 대해 학습하고 실제로 구현함으로써, <b>보안</b>
