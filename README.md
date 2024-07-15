@@ -2,7 +2,7 @@
 
 <img width="958" alt="포폴메인이미지" src="https://github.com/cc-yujin/yujin-portfolio/assets/111138337/6bdd9d2e-3125-4508-a2fc-29630cae271c">
 
-<a href="https://todoapp4adhd.netlify.app/](https://portfolio-93a45.firebaseapp.com/">
+<a href="https://portfolio-93a45.firebaseapp.com/">
   <img src="https://img.shields.io/badge/배포사이트 이동-0e76ff?style=for-the-badge&logo=netlify&logoColor=white" />
 </a>
 
